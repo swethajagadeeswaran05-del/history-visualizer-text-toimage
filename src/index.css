@@ -8,43 +8,44 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Historical color palette */
-    --background: 42 15% 97%;
-    --foreground: 25 25% 15%;
+    /* AI-inspired glassmorphism color palette */
+    --background: 240 10% 4%;
+    --foreground: 240 5% 96%;
 
-    --card: 42 20% 98%;
-    --card-foreground: 25 25% 15%;
+    --card: 240 10% 8%;
+    --card-foreground: 240 5% 96%;
 
-    --popover: 42 20% 98%;
-    --popover-foreground: 25 25% 15%;
+    --popover: 240 10% 8%;
+    --popover-foreground: 240 5% 96%;
 
-    --primary: 25 45% 25%;
-    --primary-foreground: 42 25% 95%;
+    --primary: 200 100% 50%;
+    --primary-foreground: 240 10% 4%;
 
-    --secondary: 35 25% 85%;
-    --secondary-foreground: 25 35% 20%;
+    --secondary: 240 5% 15%;
+    --secondary-foreground: 240 5% 96%;
 
-    --muted: 38 20% 90%;
-    --muted-foreground: 25 15% 45%;
+    --muted: 240 5% 12%;
+    --muted-foreground: 240 5% 65%;
 
-    --accent: 45 55% 75%;
-    --accent-foreground: 25 35% 20%;
+    --accent: 280 100% 70%;
+    --accent-foreground: 240 10% 4%;
 
     --destructive: 0 75% 55%;
-    --destructive-foreground: 42 25% 95%;
+    --destructive-foreground: 240 5% 96%;
 
-    --border: 38 15% 88%;
-    --input: 38 15% 92%;
-    --ring: 25 45% 25%;
+    --border: 240 5% 15%;
+    --input: 240 5% 15%;
+    --ring: 200 100% 50%;
 
-    /* Historical design tokens */
-    --gradient-parchment: linear-gradient(135deg, hsl(42 25% 96%), hsl(38 20% 94%));
-    --gradient-manuscript: linear-gradient(180deg, hsl(42 20% 98%), hsl(35 15% 93%));
-    --gradient-gold: linear-gradient(135deg, hsl(45 65% 65%), hsl(40 55% 55%));
-    --shadow-manuscript: 0 8px 25px -8px hsl(25 25% 15% / 0.15);
-    --shadow-glow: 0 0 30px hsl(45 55% 75% / 0.3);
+    /* AI-inspired design tokens */
+    --gradient-ai: linear-gradient(135deg, hsl(200 100% 50%), hsl(280 100% 70%));
+    --gradient-glass: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0.05));
+    --gradient-neon: linear-gradient(90deg, hsl(200 100% 50%), hsl(280 100% 70%), hsl(320 100% 60%));
+    --backdrop-blur: blur(16px);
+    --shadow-neon: 0 0 30px hsl(200 100% 50% / 0.3);
+    --shadow-glass: 0 8px 32px rgba(0, 0, 0, 0.3);
 
-    --radius: 0.75rem;
+    --radius: 1rem;
 
     --sidebar-background: 0 0% 98%;
 

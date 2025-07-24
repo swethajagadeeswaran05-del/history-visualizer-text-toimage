@@ -132,7 +132,7 @@ export default function HistoryVisualizer() {
                   <Button 
                     onClick={generateHistoricalImage}
                     disabled={isGenerating || !inputText.trim()}
-                    variant="golden"
+                    variant="ai"
                     size="lg"
                     className="flex-1"
                   >
@@ -162,7 +162,7 @@ export default function HistoryVisualizer() {
                   {EXAMPLE_PROMPTS.map((prompt, index) => (
                     <Button
                       key={index}
-                      variant="manuscript"
+                      variant="glass"
                       className="w-full text-left justify-start h-auto p-3 text-sm leading-relaxed"
                       onClick={() => useExamplePrompt(prompt)}
                     >

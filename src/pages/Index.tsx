@@ -1,7 +1,7 @@
-import HistoryVisualizer from "@/components/HistoryVisualizer";
+import TextToImageGenerator from "@/components/TextToImageGenerator";
 
 const Index = () => {
-  return <HistoryVisualizer />;
+  return <TextToImageGenerator />;
 };
 
 export default Index;
